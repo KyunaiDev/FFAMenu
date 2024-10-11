@@ -1,0 +1,13 @@
+name: FFAMenu
+version: 1.0.0
+api: [5.0.0]
+main: FFAMenu\Main
+commands:
+  ffa:
+    description: Opens the FFA arenas UI.
+    usage: /ffa
+    permission: ffa.command 
+permissions:
+  ffa.command:
+    description: Allows use of the /ffa command
+    default: true
